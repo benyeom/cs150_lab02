@@ -11,4 +11,6 @@ df = pd.DataFrame({'age': 18,
 df.loc[1:, 'age'] = 16
 print(df)
 
-print("hello, world")
+path = "/Users/benjaminyeom/Downloads/Copy of Intern Ranges 2024 - US Summary.csv"
+df2 = pd.read_csv(path)
+print(df2)
